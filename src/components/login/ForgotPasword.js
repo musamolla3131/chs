@@ -1,7 +1,7 @@
 import React from 'react';
-import "../assets/bootstrap/css/bootstrap.min.css";
+// import "../assets/bootstrap/css/bootstrap.min.css";
 import "../assets/css/Nunito.css";
-import bg_image from "../assets/img/login.png";
+import bg_image from "../../assets/img/login.png";
 
 
 const ForgotPasword = () => {

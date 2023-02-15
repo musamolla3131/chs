@@ -1,6 +1,6 @@
 import React from 'react';
-import "../assets/bootstrap/css/bootstrap.min.css";
-import bg_image from "../assets/img/login.png";
+// import "../assets/bootstrap/css/bootstrap.min.css";
+import bg_image from "../../assets/img/login.png";
 import "./Custom.css"
 
 

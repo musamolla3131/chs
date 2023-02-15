@@ -1,14 +1,14 @@
 import React from 'react';
 // import "../assets/bootstrap/css/bootstrap.min.css";
-// import "../assets/css/Nunito.css";
-import bg_image from "../assets/img/login.png";
-// import "./Custom.css"
+import bg_image from "../../assets/img/login.png";
+import "./Custom.css"
 
 
 
-const Login = () => {
+const Login = ({ handleGoogleSingIn }) => {
+
     return (
-        <body class="bg-gradient-primary " >
+        <body class="bg-gradient-primary vh-100  " >
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-12 col-xl-10">
@@ -31,7 +31,9 @@ const Login = () => {
                                                         <div class="form-check"><input id="formCheck-1" class="form-check-input custom-control-input" type="checkbox" /><label class="form-check-label custom-control-label" for="formCheck-1">Remember Me</label></div>
                                                     </div>
                                                 </div><button class="btn btn-primary d-block btn-user w-100" type="submit" href="register.html">Login</button>
-                                                <hr /><a class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button" href="register.html"><i class="fab fa-google"></i>  Login with Google</a><a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='login'><i class="fab fa-facebook-f"></i>  Login with Facebook</a>
+                                                <hr />
+                                                <button class="btn btn-primary d-block btn-google btn-user w-100 mb-2" onClick={handleGoogleSingIn}><i class="fab fa-google"></i>  Login with Google</button>
+                                                <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='login'><i class="fab fa-facebook-f"></i>  Login with Facebook</a>
                                                 <hr />
                                             </form>
                                             <div class="text-center"><a class="small" href="forgot-password.html">Forgot Password?</a></div>
