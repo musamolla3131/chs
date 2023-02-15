@@ -1,14 +1,14 @@
 import React from 'react';
-import "../assets/bootstrap/css/bootstrap.min.css";
-import "../assets/css/Nunito.css";
+// import "../assets/bootstrap/css/bootstrap.min.css";
+// import "../assets/css/Nunito.css";
 import bg_image from "../assets/img/login.png";
-import "./Custom.css"
+// import "./Custom.css"
 
 
 
 const Login = () => {
     return (
-        <body class="bg-gradient-primary vh-100" >
+        <body class="bg-gradient-primary " >
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-12 col-xl-10">
@@ -49,3 +49,4 @@ const Login = () => {
 };
 
 export default Login;
+

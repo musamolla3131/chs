@@ -6,7 +6,7 @@ import "./Custom.css"
 
 const CreateAnAccount = () => {
     return (
-        <body class="bg-gradient-primary h-100" >
+        <body class="bg-gradient-primary vh-100" >
             <div class="container">
                 <div class="card shadow-lg o-hidden border-0 my-5">
                     <div class="card-body p-0">
