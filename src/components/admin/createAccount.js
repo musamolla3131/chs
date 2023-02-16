@@ -1,7 +1,5 @@
 import React from 'react';
-// import "../assets/bootstrap/css/bootstrap.min.css";
-import bg_image from "../../assets/img/login.png";
-import "./custom.css"
+import bg_image from '../../assets/img/login.png'; // This is the image that is used in the background of the login page
 
 
 const createAccount = () => {

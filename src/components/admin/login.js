@@ -1,12 +1,7 @@
 import React from 'react';
-// import "../assets/bootstrap/css/bootstrap.min.css";
-import bg_image from "../../assets/img/login.png";
-import "./custom.css"
+import bg_image from '../../assets/img/login.png'; // This is the image that is used in the background of the login page
 
-
-
-const login = ({ handleGoogleSingIn }) => {
-
+const login = () => {
     return (
         <body class="bg-gradient-primary vh-100  " >
             <div class="container">
@@ -32,7 +27,7 @@ const login = ({ handleGoogleSingIn }) => {
                                                     </div>
                                                 </div><button class="btn btn-primary d-block btn-user w-100" type="submit" href="register.html">Login</button>
                                                 <hr />
-                                                <button class="btn btn-primary d-block btn-google btn-user w-100 mb-2" onClick={handleGoogleSingIn}><i class="fab fa-google"></i>  Login with Google</button>
+                                                <button class="btn btn-primary d-block btn-google btn-user w-100 mb-2" ><i class="fab fa-google"></i>  Login with Google</button>
                                                 <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='login'><i class="fab fa-facebook-f"></i>  Login with Facebook</a>
                                                 <hr />
                                             </form>
@@ -51,4 +46,3 @@ const login = ({ handleGoogleSingIn }) => {
 };
 
 export default login;
-

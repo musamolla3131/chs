@@ -1,10 +1,7 @@
 import React from 'react';
-// import "../assets/bootstrap/css/bootstrap.min.css";
-import "../assets/css/Nunito.css";
-import bg_image from "../../assets/img/login.png";
+import bg_image from '../../assets/img/login.png'; // This is the image that is used in the background of the login page
 
-
-const forgotPasword = () => {
+const forgotPassword = () => {
     return (
         <body class="bg-gradient-primary vh-100">
             <div class="container">
@@ -41,4 +38,4 @@ const forgotPasword = () => {
     );
 };
 
-export default forgotPasword;
+export default forgotPassword;
