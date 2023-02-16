@@ -1,11 +1,11 @@
 import React from 'react';
 // import "../assets/bootstrap/css/bootstrap.min.css";
 import bg_image from "../../assets/img/login.png";
-import "./Custom.css"
+import "./custom.css"
 
 
 
-const Login = ({ handleGoogleSingIn }) => {
+const login = ({ handleGoogleSingIn }) => {
 
     return (
         <body class="bg-gradient-primary vh-100  " >
@@ -50,5 +50,5 @@ const Login = ({ handleGoogleSingIn }) => {
     );
 };
 
-export default Login;
+export default login;
 

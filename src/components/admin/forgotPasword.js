@@ -4,7 +4,7 @@ import "../assets/css/Nunito.css";
 import bg_image from "../../assets/img/login.png";
 
 
-const ForgotPasword = () => {
+const forgotPasword = () => {
     return (
         <body class="bg-gradient-primary vh-100">
             <div class="container">
@@ -41,4 +41,4 @@ const ForgotPasword = () => {
     );
 };
 
-export default ForgotPasword;
+export default forgotPasword;

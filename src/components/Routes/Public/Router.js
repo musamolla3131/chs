@@ -1,21 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
+import login from "../../admin/login"
 
-const Router = createBrowserRouter({
-    routes: [
-        {
-            path: "/",
-            component: () => <div>Home</div>,
-        },
-        {
-            path: "/about",
-            component: () => <div>About</div>,
-        },
-        {
-            path: "/contact",
-            component: () => <div>Contact</div>,
-        },
-    ],
-});
+const Router = createBrowserRouter([
+    {
+        path: "/",
+        element: <login />,
+    },
+    {
+        path: "/create-account",
+        element: <create
+    },
+    {
+        path: "/forgot-password",
+        element: <forgotPasword />
+    },
+
+]);
 
 
 export default Router;

@@ -1,10 +1,10 @@
 import React from 'react';
 // import "../assets/bootstrap/css/bootstrap.min.css";
 import bg_image from "../../assets/img/login.png";
-import "./Custom.css"
+import "./custom.css"
 
 
-const CreateAnAccount = () => {
+const createAccount = () => {
     return (
         <body class="bg-gradient-primary vh-100" >
             <div class="container">
@@ -44,4 +44,4 @@ const CreateAnAccount = () => {
     );
 };
 
-export default CreateAnAccount;
+export default createAccount;
