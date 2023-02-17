@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bg_image from '../../assets/img/login.png'; // This is the image that is used in the background of the login page
 
 const forgotPassword = () => {
@@ -20,12 +21,18 @@ const forgotPassword = () => {
                                                 <p class="mb-4">We get it, stuff happens. Just enter your email address below and we&#39;ll send you a link to reset your password!</p>
                                             </div>
                                             <form class="user">
-                                                <div class="mb-3"><input id="exampleInputEmail" class="form-control form-control-user" type="email" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email" /></div><button class="btn btn-primary d-block btn-user w-100" type="submit">Reset Password</button>
+                                                <div class="mb-3">
+                                                    <input id="exampleInputEmail" class="form-control form-control-user" type="email" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email" />
+                                                </div>
+                                                <button class="btn btn-primary d-block btn-user w-100" type="submit">Reset Password</button>
                                             </form>
                                             <div class="text-center">
-                                                <hr /><a class="small" href="register.html">Create an Account!</a>
+                                                <hr />
+                                                <Link class="small" to="/create-account">Create an Account!</Link>
                                             </div>
-                                            <div class="text-center"><a class="small" href="login.html">Already have an account? Login!</a></div>
+                                            <div class="text-center">
+                                                <Link class="small" to="/">Already have an account? Login!</Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

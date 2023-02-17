@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bg_image from '../../assets/img/login.png'; // This is the image that is used in the background of the login page
 
 const login = () => {
@@ -31,8 +32,12 @@ const login = () => {
                                                 <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='login'><i class="fab fa-facebook-f"></i>  Login with Facebook</a>
                                                 <hr />
                                             </form>
-                                            <div class="text-center"><a class="small" href="forgot-password.html">Forgot Password?</a></div>
-                                            <div class="text-center"><a class="small" href="register.html">Create an Account!</a></div>
+                                            <div class="text-center">
+                                                <Link class="small" to='/forgot-password'>Forgot Password?</Link>
+                                            </div>
+                                            <div class="text-center">
+                                                <Link class="small" to='/create-account'>Create an Account!</Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
