@@ -29,7 +29,7 @@ const login = () => {
                                                 </div><button class="btn btn-primary d-block btn-user w-100" type="submit" href="register.html">Login</button>
                                                 <hr />
                                                 <button class="btn btn-primary d-block btn-google btn-user w-100 mb-2" ><i class="fab fa-google"></i>  Login with Google</button>
-                                                <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='login'><i class="fab fa-facebook-f"></i>  Login with Facebook</a>
+                                                {/* <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='login'><i class="fab fa-facebook-f"></i>  Login with Facebook</a> */}
                                                 <hr />
                                             </form>
                                             <div class="text-center">

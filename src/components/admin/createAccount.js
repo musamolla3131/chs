@@ -30,7 +30,8 @@ const createAccount = () => {
                                             <div class="col-sm-6"><input id="exampleRepeatPasswordInput" class="form-control form-control-user" type="password" placeholder="Repeat Password" name="password_repeat" /></div>
                                         </div><button class="btn btn-primary d-block btn-user w-100" type="submit">Register Account</button>
                                         <hr />
-                                        <a class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button" href='register'><i class="fab fa-google"></i>  Register with Google</a><a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='re'><i class="fab fa-facebook-f"></i>  Register with Facebook</a>
+                                        <a class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button" href='register'><i class="fab fa-google"></i>  Register with Google</a>
+                                        {/* <a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button" href='re'><i class="fab fa-facebook-f"></i>  Register with Facebook</a> */}
                                         <hr />
                                     </form>
                                     <div class="text-center">
