@@ -4,7 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./assets/bootstrap/css/bootstrap.min.css";
+
+// import "./assets/js/bs-init";
+// import "./assets/js/theme";
+// import "./assets/bootstrap/js/bootstrap.min";
+
 import UserContext from './components/context/userContext';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

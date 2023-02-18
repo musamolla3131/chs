@@ -4,34 +4,36 @@ import bg_image from '../../assets/img/login.png'; // This is the image that is 
 
 const forgotPassword = () => {
     return (
-        <body class="bg-gradient-primary vh-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-12 col-xl-10">
-                        <div class="card shadow-lg o-hidden border-0 my-5">
-                            <div class="card-body p-0">
-                                <div class="row">
-                                    <div class="col-lg-6 d-none d-lg-flex">
-                                        <div class="flex-grow-1 bg-password-image" style={{ background: `url('${bg_image}') center / contain no-repeat` }}></div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="p-5">
-                                            <div class="text-center">
-                                                <h4 class="text-dark mb-2">Forgot Your Password?</h4>
-                                                <p class="mb-4">We get it, stuff happens. Just enter your email address below and we&#39;ll send you a link to reset your password!</p>
-                                            </div>
-                                            <form class="user">
-                                                <div class="mb-3">
-                                                    <input id="exampleInputEmail" class="form-control form-control-user" type="email" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email" />
+        <>
+            <body className="bg-gradient-primary vh-100">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-md-9 col-lg-12 col-xl-10">
+                            <div className="card shadow-lg o-hidden border-0 my-5">
+                                <div className="card-body p-0">
+                                    <div className="row">
+                                        <div className="col-lg-6 d-none d-lg-flex">
+                                            <div className="flex-grow-1 bg-password-image" style={{ background: `url('${bg_image}') center / contain no-repeat` }}></div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="p-5">
+                                                <div className="text-center">
+                                                    <h4 className="text-dark mb-2">Forgot Your Password?</h4>
+                                                    <p className="mb-4">We get it, stuff happens. Just enter your email address below and we&#39;ll send you a link to reset your password!</p>
                                                 </div>
-                                                <button class="btn btn-primary d-block btn-user w-100" type="submit">Reset Password</button>
-                                            </form>
-                                            <div class="text-center">
-                                                <hr />
-                                                <Link class="small" to="/create-account">Create an Account!</Link>
-                                            </div>
-                                            <div class="text-center">
-                                                <Link class="small" to="/">Already have an account? Login!</Link>
+                                                <form className="user">
+                                                    <div className="mb-3">
+                                                        <input id="exampleInputEmail" className="form-control form-control-user" type="email" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email" />
+                                                    </div>
+                                                    <button className="btn btn-primary d-block btn-user w-100" type="submit">Reset Password</button>
+                                                </form>
+                                                <div className="text-center">
+                                                    <hr />
+                                                    <Link className="small" to="/create-account">Create an Account!</Link>
+                                                </div>
+                                                <div className="text-center">
+                                                    <Link className="small" to="/">Already have an account? Login!</Link>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -40,8 +42,8 @@ const forgotPassword = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </body>
+            </body>
+        </>
     );
 };
 
